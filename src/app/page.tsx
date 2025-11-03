@@ -1,6 +1,5 @@
 import { ContactSection } from "@/components/contact-section";
 import { FarmMap } from "@/components/farm-map";
-import { GalleryGrid } from "@/components/gallery-grid";
 import { Hero } from "@/components/hero";
 import { InfrastructureShowcase } from "@/components/infrastructure-showcase";
 import { QualityProcess } from "@/components/quality-process";
@@ -18,7 +17,6 @@ export default function Home() {
       <QualityProcess />
       <InfrastructureShowcase />
       <ReachMap />
-      <GalleryGrid />
       <ContactSection />
       <footer className="bg-slate-950 py-10 text-center text-sm text-white/70">
         <p className="mb-2 font-semibold uppercase tracking-[0.3em] text-white/50">

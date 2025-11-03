@@ -129,7 +129,7 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "0px 0px -120px 0px" }}
           transition={{ duration: 0.4 }}
-          className="rounded-3xl border border-amber-100 bg-amber-50/50 p-8 shadow-sm"
+          className="rounded-3xl border border-slate-200 bg-white p-8"
         >
           <fieldset className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div className="flex flex-col gap-2">

@@ -12,7 +12,6 @@ const navItems = [
   { href: "#quality", label: "Quality & Process" },
   { href: "#infrastructure", label: "Infrastructure" },
   { href: "#reach", label: "Our Reach" },
-  { href: "#gallery", label: "Gallery" },
   { href: "#contact", label: "Contact" },
 ];
 

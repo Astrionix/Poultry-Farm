@@ -7,18 +7,18 @@ export type InfrastructureFeature = {
 
 export const infrastructureFeatures: InfrastructureFeature[] = [
   {
-    id: "cold-storage",
-    title: "Precision Cold Storage",
+    id: "clean-housing",
+    title: "Clean Layer Houses",
     description:
-      "Automated chillers maintain 12°C to preserve freshness from grading to dispatch.",
-    icon: "snowflake",
+      "Well-maintained layer houses with daily cleaning routines keep birds healthy and stress-free.",
+    icon: "warehouse",
   },
   {
-    id: "grading-belts",
-    title: "Automated Grading Belts",
+    id: "manual-grading",
+    title: "Manual Grading Teams",
     description:
-      "Optical scanners and conveyors classify eggs by weight class in minutes.",
-    icon: "scan",
+      "Experienced graders inspect each egg by hand to ensure uniform shells and sizing.",
+    icon: "egg",
   },
   {
     id: "biosecurity",
@@ -26,13 +26,6 @@ export const infrastructureFeatures: InfrastructureFeature[] = [
     description:
       "Sanitization tunnels, footbaths, and monitored entry logs protect flock health.",
     icon: "shield",
-  },
-  {
-    id: "logistics",
-    title: "Temperature-Controlled Logistics",
-    description:
-      "Fleet of refrigerated trucks synchronized with dispatch schedules across six states.",
-    icon: "truck",
   },
   {
     id: "quality-lab",

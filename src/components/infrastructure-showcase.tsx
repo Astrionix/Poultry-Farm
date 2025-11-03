@@ -3,24 +3,20 @@
 import { infrastructureFeatures } from "@/data/infrastructure";
 import { motion } from "framer-motion";
 import {
-  Package,
-  Scan,
+  Egg,
   Shield,
-  Snowflake,
   TestTube,
-  Truck,
   Users,
+  Warehouse,
   type LucideIcon,
 } from "lucide-react";
 
 const icons: Record<string, LucideIcon> = {
-  "cold-storage": Snowflake,
-  "grading-belts": Scan,
+  "clean-housing": Warehouse,
+  "manual-grading": Egg,
   biosecurity: Shield,
-  logistics: Truck,
   "quality-lab": TestTube,
   workforce: Users,
-  packing: Package,
 };
 
 export function InfrastructureShowcase() {
@@ -35,7 +31,7 @@ export function InfrastructureShowcase() {
             Every Egg Counts — Our 5-Point Quality Check.
           </h2>
           <p className="max-w-3xl text-base leading-relaxed text-slate-600 sm:text-lg">
-            Automation, cold-chain logistics, and a trained workforce keep Mahalakshmi Poultry Complex future-ready. Each feature safeguards freshness, hygiene, and reliability across the supply chain.
+            Clean housing, diligent manual graders, and committed teams keep Mahalakshmi Poultry Complex consistent. Every step focuses on hygiene, careful handling, and dependable quality for our partners.
           </p>
         </div>
 
@@ -49,9 +45,9 @@ export function InfrastructureShowcase() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: index * 0.08 }}
                 viewport={{ once: true, margin: "0px 0px -120px 0px" }}
-                className="flex h-full flex-col gap-4 rounded-3xl border border-amber-100 bg-amber-50/60 p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+                className="flex h-full flex-col gap-4 rounded-3xl border border-slate-200 bg-white p-6"
               >
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-200/60 text-amber-900">
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-900">
                   <Icon className="h-6 w-6" aria-hidden />
                 </span>
                 <div className="space-y-2">

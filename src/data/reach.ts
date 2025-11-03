@@ -17,30 +17,30 @@ export const reachLocations: ReachLocation[] = [
     state: "Telangana",
     cities: ["Hyderabad", "Warangal"],
     highlight:
-      "Morning dispatches from Kakinada ensure Hyderabad markets receive fresh stock.",
+      "Morning dispatches from our farms ensure Hyderabad markets receive fresh stock.",
   },
   {
     id: "tamil-nadu",
     state: "Tamil Nadu",
     cities: ["Chennai", "Coimbatore"],
-    highlight: "Cold-chain hub ties allow same-day arrivals for wholesale buyers.",
+    highlight: "Wholesale networks receive eggs the same day via trusted transport partners.",
   },
   {
     id: "karnataka",
     state: "Karnataka",
     cities: ["Bengaluru", "Mysuru"],
-    highlight: "Joint logistics operations keep southern markets well-served.",
+    highlight: "Coordinated deliveries with distributors keep southern markets well-served.",
   },
   {
     id: "odisha",
     state: "Odisha",
     cities: ["Bhubaneswar", "Berhampur"],
-    highlight: "Maritime routes from Kakinada support eastern expansion.",
+    highlight: "Trusted transporter network from Kakinada supports eastern expansion.",
   },
   {
     id: "chhattisgarh",
     state: "Chhattisgarh",
     cities: ["Raipur"],
-    highlight: "Partnership-driven distribution to high-demand institutional clients.",
+    highlight: "Partner distributors connect us to high-demand institutional clients.",
   },
 ];

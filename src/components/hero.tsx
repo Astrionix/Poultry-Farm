@@ -7,20 +7,8 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[90vh] items-center justify-center overflow-hidden bg-slate-950 text-white"
+      className="relative flex min-h-[90vh] items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white"
     >
-      <video
-        className="absolute inset-0 h-full w-full object-cover"
-        autoPlay
-        loop
-        muted
-        playsInline
-        poster="/images/hero/poster.jpg"
-      >
-        <source src="/videos/hero-farm-loop.mp4" type="video/mp4" />
-      </video>
-      <div className="absolute inset-0 bg-slate-950/70" aria-hidden="true" />
-
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center gap-10 px-4 py-32 text-center sm:px-6 lg:px-8">
         <motion.span
           initial={{ opacity: 0, y: 12 }}
@@ -46,7 +34,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="max-w-2xl text-lg text-white/80 sm:text-xl"
         >
-          Four farms across Andhra Pradesh. Precision-driven quality. Trusted deliveries across six states.
+          Four farms across Andhra Pradesh. Precision-driven quality.
         </motion.p>
 
         <motion.div
